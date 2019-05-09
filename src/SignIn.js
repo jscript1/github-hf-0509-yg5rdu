@@ -84,7 +84,7 @@ let SignIn = (props) => {
           <LockOutlinedIcon />
         </Avatar>
         <Typography component="h1" variant="h5">
-          Sign in - New 1.97M - X
+          Sign in - New 1.97M - X10
         </Typography>
         <form className={classes.form} onSubmit={signin}>
           <FormControl margin="normal" required fullWidth>

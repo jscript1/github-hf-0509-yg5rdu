@@ -94,7 +94,7 @@ render(){
     <div className={"flex-container " + (!this.showHideLogicCalculation() ? 'disableFlexContainer' : 'dummy')}>
     <div class="qName">
      <div>
-    {qName}
+    {qName}1
     </div>
     <div class="qValue">
     {qValue}
