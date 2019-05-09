@@ -10,7 +10,7 @@ import { withStyles } from '@material-ui/core/styles';
 import Grid from '@material-ui/core/Grid';
 import Typography from '@material-ui/core/Typography';
 import Modal from '@material-ui/core/Modal';
-import Highlight from 'react-highlight';
+
 
 function rand() {
   return Math.round(Math.random() * 20) - 10;
@@ -120,11 +120,10 @@ saveChanges = () => {
           <div style={getModalStyle()} className={classes.paper}>
             <Typography variant="h6" id="modal-title">
               Add this code snippet on your site
+              <br/>Form Id : {this.props.fId}
             </Typography>
             <Typography variant="subtitle1" id="simple-modal-description">
-            <Highlight className='language-name-of-snippet'>
-               Form Id : {this.props.fId}
-            </Highlight>
+               "Insert code snippet here
             </Typography>
             <Button className={classes.button} onClick={this.embedFormClose.bind(this)}          
             size="small"
