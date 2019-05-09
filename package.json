@@ -13,6 +13,7 @@
     "classnames": "2.2.6",
     "events": "3.0.0",
     "fast-crc32c": "1.0.4",
+    "firebase": "^6.0.1",
     "font-awesome": "4.7.0",
     "glyphicons": "0.2.0",
     "history": "4.9.0",
