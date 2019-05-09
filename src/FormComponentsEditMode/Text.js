@@ -76,7 +76,7 @@ render(){
             id="outlined-name"
             label="Formula"
             className={classes.textField}
-            value={currentQuestion.qShowHide}
+            value={currentQuestion.qShowHide?currentQuestion.qShowHide:""}
             onChange={this.handleChange('value',"qShowHide")}
             margin="normal"
             variant="outlined"

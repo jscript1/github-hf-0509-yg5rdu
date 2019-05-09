@@ -13,7 +13,6 @@ import history from "./history";
 import * as userDetailsActions from './actions/userDetails-actions';
 import * as questionActions from './actions/question-actions';
 import DisplayFormsList from './DisplayFormsList';
-import './style.css';
 
 export class Dashboard extends Component {
   constructor(props){

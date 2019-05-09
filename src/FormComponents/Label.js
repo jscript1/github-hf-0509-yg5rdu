@@ -41,20 +41,11 @@ showHideLogicCalculation()
 
 render(){
   
-  if(!this.showHideLogicCalculation()){
-    return (
-      <div>
-        Show Hide Return is False
-      </div>
-    )
-  }
-
   let current = this.props.data
-  
   let CustomtitleSizeTag = current.titleSize
 
   return(
-    <div>
+    <div className={"flex-container " + (!this.showHideLogicCalculation() ? 'disableFlexContainer' : 'dummy')}>
       <div>
         {/*<p>{current.qType}</p>*/}
         <CustomtitleSizeTag>{current.qText}</CustomtitleSizeTag>

@@ -6,7 +6,7 @@ import { ActionCreators } from 'redux-undo';
 import * as editableQuestionActions from './actions/editableQuestion-actions'
 import * as questionActions from './actions/question-actions'
 import * as userDetailsActions from './actions/userDetails-actions'
-import './style.css';
+
 
 export class Hello extends React.Component{
   

@@ -66,14 +66,6 @@ showHideLogicCalculation()
 }
 
 render(){
-  
-  if(!this.showHideLogicCalculation()){
-    return (
-      <div>
-        Show Hide Return is False
-      </div>
-    )
-  }
 
   let { theme } = this.props;
   let { classes } = this.props;
@@ -93,7 +85,7 @@ render(){
   
   return(
     
-    <div class="flex-container">
+    <div className={"flex-container " + (!this.showHideLogicCalculation() ? 'disableFlexContainer' : 'dummy')}>
       <div class="qName">
         <div>
         {qName}

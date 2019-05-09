@@ -11,7 +11,7 @@ import questionsReducer from './reducers/questions-reducer';
 import formulasReducer from './reducers/formulas-reducer';
 import userDetailsReducer from './reducers/userDetails-reducer';
 import editableQuestionReducer from './reducers/editableQuestion-reducer';
-import './style.css';
+import './style1.css';
 import undoable,{ includeAction, excludeAction } from 'redux-undo';
 import * as questionActions from './actions/question-actions'
 import * as editableQuestionActions from './actions/editableQuestion-actions'
