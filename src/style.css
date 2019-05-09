@@ -91,7 +91,11 @@ h1, p {
 }
 
 .flex-container {
-  display: flex; 
+  display: flex;   
+}
+
+.disableFlexContainer {
+  color:grey;
 }
 
 .flex-container:hover{
