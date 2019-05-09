@@ -122,7 +122,9 @@ saveChanges = () => {
               Add this code snippet on your site
             </Typography>
             <Typography variant="subtitle1" id="simple-modal-description">
-              Form Id : {this.props.fId}
+            <Highlight className='language-name-of-snippet'>
+               Form Id : {this.props.fId}
+            </Highlight>
             </Typography>
             <Button className={classes.button} onClick={this.embedFormClose.bind(this)}          
             size="small"
